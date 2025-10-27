@@ -46,7 +46,7 @@ jobs:
           mv target/${{ matrix.target.name }}/ci-release/subalfred .
           tar -czvf subalfred-${{ matrix.target.name }}.tar.gz subalfred
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: subalfred-${{ matrix.target.name }}
           path: subalfred-${{ matrix.target.name }}.*
