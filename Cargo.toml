@@ -16,7 +16,7 @@ version    = "0.9.4"
 
 [workspace.dependencies]
 # crates.io
-array-bytes        = { version = "6.2" }
+array-bytes        = { version = "9.1" }
 clap               = { version = "4.5" }
 fxhash             = { version = "0.2" }
 once_cell          = { version = "1.20" }
