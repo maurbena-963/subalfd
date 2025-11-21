@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch latest code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
